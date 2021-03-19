@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h2>Register</h2>
+    <form method="POST" action="">
+        {{ form.username.label() }}
+        {{ form.username() }}
+        <br>
+        {{ form.password.label() }}
+        {{ form.password() }}
+        <br>
+        {{ form.confirm_password.label() }}
+        {{ form.confirm_password() }}
+        <br>
+        {{ form.submit() }}                   
+    </form>
+
+</html>
